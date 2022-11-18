@@ -1,0 +1,7 @@
+sleep:
+  image: alpine:latest
+  stage: test
+  script:
+    - sleep 120
+
+
